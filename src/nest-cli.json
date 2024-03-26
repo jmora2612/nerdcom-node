@@ -1,0 +1,43 @@
+{
+  "projects": {
+    "status": {
+      "type": "library",
+      "root": "libs/status",
+      "entryFile": "index",
+      "sourceRoot": "libs/status/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/status/tsconfig.lib.json"
+      }
+    },
+    "transactionType": {
+      "type": "library",
+      "root": "libs/transactionType",
+      "entryFile": "index",
+      "sourceRoot": "libs/transactionType/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/transactionType/tsconfig.lib.json"
+      }
+    },
+    "products": {
+      "type": "library",
+      "root": "libs/products",
+      "entryFile": "index",
+      "sourceRoot": "libs/products/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/products/tsconfig.lib.json"
+      }
+    },
+    "transaction": {
+      "type": "library",
+      "root": "libs/transaction",
+      "entryFile": "index",
+      "sourceRoot": "libs/transaction/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/transaction/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
